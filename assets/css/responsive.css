@@ -1,0 +1,288 @@
+@media all and (max-width: 1200px){
+	.menu ul li:last-child a{
+		margin-right: inherit !important;
+	}
+	.left_real_estate img{
+		width: 100%;
+	}
+	.hidden_area .left_real_estate img {
+		width: 400px !important;
+	}
+
+	/*footer*/
+	/*footer*/
+	.col-xl-3.col-lg-4:nth-child(2) .contact_content {
+		margin-left: 40px;
+	}
+	.contact_content a{
+		font-size: 20px;
+	}
+	.f_border .col-xl-3:nth-child(2) .contact_content a::after {
+		width: 28px;
+		height: 28px;
+		top: -3px;
+	}
+	.f_border .col-xl-4:last-child .contact_content a::after {
+		top: 0px;
+	}
+}
+
+@media all and (max-width: 991px){
+	.logo a img {
+		width: 150px;
+	}
+	.menu ul li a {
+		margin: 0px 20px;
+	}
+	.real_estate_area::after {
+		height: 100%;
+	}
+	.real_estate_area .right_real_estate, .competitive_area .left_real_estate, .hidden_area .right_real_estate{
+		margin-top: 40px;
+	}
+	.left_real_estate img, .hidden_area .left_real_estate img{
+		width: 500px !important;
+	}
+	.left_Execution_items_box {
+		height: 400px;
+	}
+	.left_Execution_items_box, .right_Execution_items_box {
+		-webkit-box-flex: 0;
+		    -ms-flex: 0 0 100%;
+		        flex: 0 0 100%;
+		max-width: 100%;
+	}
+
+	/*Footer*/
+	/*Footer*/
+	.col-xl-3.col-lg-4:nth-child(2) .contact_content, .f_border .col-xl-4:last-child .contact_content{
+		margin-left: 0 !important;
+		margin-top: 40px;
+	}
+
+	/*Found page*/
+	/*Found page*/
+	.capital_found_area .row .col-lg-6:nth-child(2){
+		margin-top: 60px !important;
+	}
+	.single_capital_found, .col-lg-6:nth-child(2) .single_capital_found, .col-lg-6:nth-child(4) .single_capital_found, .col-lg-6:nth-child(6) .single_capital_found, .col-lg-6:nth-child(8) .single_capital_found{
+		float: inherit !important;
+		margin: 0 auto;
+	}
+	
+	/*About pages*/
+	/*About pages*/
+	.membrs_row .col-lg-5, .membrs_row .col-lg-7 {
+		margin-bottom: 50px;
+	}
+	.membrs_row:nth-child(2) .left_members_items img, .membrs_row:nth-child(4) .left_members_items img, .membrs_row:nth-child(6) .left_members_items img, .membrs_row:nth-child(8) .left_members_items img {
+		float: left !important;
+	}
+	.membrs_row:nth-child(2) .col-lg-5.col-md-12{
+		-webkit-box-ordinal-group: 0;
+		    -ms-flex-order: -1;
+		        order: -1;
+	}
+	.right_members_items p{
+		font-size: 16px;
+		max-width: inherit;
+	}
+	.bennar_content h1{
+		font-size: 40px;
+	}
+	.information_area {
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+		top: 140px;
+	}
+}
+@media all and (min-width: 768px){
+	.header_area .col-lg-9.col-md-8.XXX{
+		display: block !important;
+	}
+}
+@media all and (max-width: 767px){
+	.header_area{
+		padding: 20px 0px;
+		position: relative;
+	}
+	.nav-toggle {
+		display: block;
+	}
+	.header_area .col-lg-9.col-md-8.XXX{
+		display: none;
+		position: absolute;
+		top: 0;
+		left: 0;
+		z-index: 111;
+		background: #FFFFFF;
+		padding: 55px 0px;
+		height: 100vh;
+		width: 100%;
+	}
+	.bennar_area {
+		padding: 60px 0px;
+	}
+	.bennar_content h1 br{
+		display: none !important;
+	}
+	.bennar_content h1 {
+		font-size: 30px;
+	}
+	.bennar_content p {
+		font-size: 16px;
+		margin-top: 30px;
+		margin-bottom: 60px;
+	}
+	.menu ul {
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		    -ms-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-align: start;
+		    -ms-flex-align: start;
+		        align-items: flex-start;
+		padding-left: 40px;
+		margin-top: 40px;
+	}
+	.menu ul li a{
+		margin: 0 !important;
+		font-size: 18px;
+	}
+	.menu ul li:last-child a {
+		background: inherit;
+		color: #05071C;
+		padding: 20px 0px;
+	}
+	.information_area{
+		top: 100px;
+	}
+	.menu ul li:last-child a.active::after{
+		display: none !important;
+	}
+	.left_real_estate img{
+		width: 100% !important;
+	}
+	.hidden_area .left_real_estate img {
+		width: 440px !important;
+	}
+	.right_real_estate h3{
+		font-size: 24px;
+	}
+	.right_real_estate h1, .contact_content h1, .members_title h1{
+		font-size: 30px;
+	}
+	.members_title p, .right_members_items p{
+		font-size: 15px;
+		padding-top: 20px;
+	}
+	.right_real_estate p{
+		font-size: 15px;
+		margin-top: 20px;
+	}
+	.left_Execution_items_box {
+		height: 300px;
+	}
+	.right_Execution_items_box .right_real_estate {
+		padding: 60px 40px;
+	}
+	.ser_content p{
+		font-size: 14px;
+		padding-top: 20px;
+	}
+	.contact_content a{
+		font-size: 17px;
+	}
+	.section_padding{
+		padding: 40px 0px;
+	}
+
+	/*Found page*/
+	/*Found page*/
+	.overlay_text h2 {
+		font-size: 18px;
+		left: 20px;
+	}
+	.single_capital_dis p, .single_capital_dis h3, .capital_btn a{
+		font-size: 15px;
+	}
+	.information_area {
+		-webkit-transform: translateX(-50%);
+		-ms-transform: translateX(-50%);
+		transform: translateX(-50%);
+		top: 80px;
+	}
+}
+
+@media all and (max-width: 575px){
+	.f_border .col-xl-4:last-child .contact_content {
+		float: left;
+	}
+	.right_real_estate h3, .ser_content h3, .information_title h1{
+		font-size: 20px;
+	}
+	.submit_btn input{
+		font-size: 15px;
+	}
+	.right_real_estate h1, .contact_content h1, .members_title h1{
+		font-size: 24px;
+	}
+	.right_members_items h1{
+		font-size: 20px;
+	}
+	.all_button a{
+		padding: 20px 30px;
+	}
+	.capital_disBox {
+		padding: 20px 20px;
+	}
+	.membrs_row .col-lg-5, .membrs_row .col-lg-7 {
+		margin-bottom: 40px;
+	}
+	.bennar_content h1 {
+		font-size: 26px;
+	}
+	.all_button a{
+		font-size: 15px;
+	}
+	.bennar_content p {
+		font-size: 14px;
+		margin-top: 20px;
+		margin-bottom: 40px;
+	}
+}
+
+@media all and (max-width: 520px){
+	.hidden_area .left_real_estate img {
+		width: 100% !important;
+		margin-left: inherit !important;
+	}
+}
+
+@media all and (max-width: 500px){
+	.full_width .col-md-6.col-sm-7.col-7, .full_width .col-md-6.col-sm-5.col-5, .name_1, .name_2{
+		-webkit-box-flex: 0 !important;
+		    -ms-flex: 0 0 100% !important;
+		        flex: 0 0 100% !important;
+		max-width: 100%;
+	}
+	.footer_copy_menu ul, .footer_copy_menu p{
+		text-align: center;
+		-webkit-box-pack: center;
+		    -ms-flex-pack: center;
+		        justify-content: center;
+	}
+}
+
+@media all and (max-width: 425px){
+	.overlay_text h2{
+		font-size: 16px;
+	}
+}
+
+@media all and (max-width: 380px){
+	.single_capital_dis p, .single_capital_dis h3{
+		font-size: 14px;
+	}
+}
